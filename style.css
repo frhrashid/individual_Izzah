@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Pacifico&display=swap');
+
+body {
+   overflow-y: scroll;
+   overflow-x: hidden;
+   font-family: 'Bree Serif', serif;
+   color: #6c7a86;
+}
+
+.offset:before {
+   display: block;
+   content: "";
+   height: 0;
+}
+
+.navbar {
+   font-family: 'Bree Serif', serif;
+   font-weight: 400;
+   font-size: .9rem;
+   letter-spacing: .1rem; 
+   background: rgba(0, 0, 0, 0.8)!important;
+}
+
+.navbar-brand {
+   margin: .2rem;
+}
+
+.navbar-nav li {
+   padding-right: .5rem;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+   color: white;
+   padding-top: .5rem;
+}
+
+.navbar-dark .navbar-nav .nav-link:active, .navbar-dark .navbar-nav .nav-link:hover {
+   color: #F778A1;
+}
+
+.caption {
+   width: 100%;
+   max-width: 100%;
+   position: absolute;
+   top: 40%;
+   z-index: 1;
+}
+
+.caption h1 {
+   font-family: 'Pacifico', cursive;
+   font-size: 5rem;
+   font-weight: 400; 
+   letter-spacing: .1rem;
+   text-shadow: .1rem .1rem .8rem black;
+   color: white;
+   padding-bottom: 1rem;
+}
+
+.caption h3 {
+   font-size: 2rem;
+   letter-spacing: .1rem;
+   text-shadow: .1rem .1rem .5rem black;
+}
+
+.landing {
+   position: relative;
+   width: 100%;
+   height: 100vh;
+   display: table;
+   background: #E9ECEF;
+   z-index: -1;
+}
+
+.home-wrap {
+   clip: rect(0, auto, auto, 0);
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+}
+
+.home-inner {
+   position: fixed;
+   display: table;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url('img/us-04.jpg');
+   background-size: cover;
+   background-position: center center;
+   -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+   will-change: transform;
+}
+
+.carousel {
+   margin: 0;
+}
+
+.carousel-inner img {
+   width: 100%;
+   object-fit: contain;
+}
+
+.jumbotron {
+   margin: 0;
+   padding: 3rem 0 4rem;
+   border-radius: 0;
+}
+
+h3.heading {
+   text-align: center;
+   font-size: 1.5rem;
+   margin: 1rem;
+   font-weight: 400;
+}
+
+.heading-underline {
+   width: 10rem;
+   height: .2rem;
+   background-color: #F778A1;
+   margin: 0 auto 2rem;
+}
+
+.born svg.svg-inline--fa {
+   color: #F778A1;
+}
+
+footer {
+   background-color: #3D5667;
+   color: white;
+   padding: 2rem 2rem;
+}
+
+footer p {
+   font-weight: 200;
+   font-size: .9rem;
+}
+
+footer a {
+   color: white;
+}
+
+footer svg.svg-inline--fa {
+   font-size: 1.5rem;
+   margin: 1rem .4rem 0 0;
+}
+
+footer svg.svg-inline--fa:hover {
+   color: #F778A1!important;
+}
+
+hr.socket {
+   width: 100%;
+   border-top: .1rem solid #6c7a86;
+   margin-top: 3rem;
+}
